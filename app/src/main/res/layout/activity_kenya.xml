@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.wambui.jambosafari.kenya">
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Mombasa Road, Vision Plaza, 5th Floor
+P. O. Box 7184 - 0507, NAIROBI, KENYA"
+        android:layout_marginStart="18dp"
+        android:layout_below="@+id/call"
+        android:layout_alignStart="@+id/call" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Email:info@kenyawalk.com"
+        android:layout_below="@+id/text"
+        android:layout_alignStart="@+id/text" />
+
+    <ImageButton
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="173dp"
+        app:srcCompat="@drawable/smartphone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/call"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Call for enquiry" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/internet" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginTop="34dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="View website" />
+
+</android.widget.RelativeLayout>
