@@ -1,2 +1,2 @@
 # jambosafari
-An Travel-based Android application
+A Travel-based Android application
